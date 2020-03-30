@@ -1,0 +1,24 @@
+[
+    {
+        "caption": "-",
+        "id": "context-convert-end"
+    },
+    {
+        "caption": "Python Boilerplates",
+        "children": [
+            {
+                "caption": "Flask Minimal Application",
+                "command": "flask_minimal"
+            },
+            {
+                "caption": "Flask Render Template",
+                "command": "flask_render_template"
+            }
+        ],
+        "id": "context-convert"
+    },
+    {
+        "caption": "-",
+        "id": "context-convert-end"
+    }
+]
