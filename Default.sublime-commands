@@ -1,0 +1,10 @@
+[
+	{
+		"caption": "Python Boilerplates: Flask Minimal Application",
+		"command": "flask_minimal"
+	},
+	{
+		"caption": "Python Boilerplates: Flask Render Template",
+		"command": "flask_render_template"
+	}
+]
