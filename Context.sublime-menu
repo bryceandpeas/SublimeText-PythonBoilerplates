@@ -8,24 +8,24 @@
 		"id": "top_level_menu",
 		"children":
 		[
-			{
-				"command": "Placeholder1",
-				"caption": "placeholder1"
+			{	
+				"caption": "Hello, World!",
+				"command": "hello_world"
 			},
 			{
-				"command": "Placeholder2",
-				"caption": "placeholder2"
+				"caption": ".gitignore",
+				"command": "gitignore"
 			},
 			{
 				"caption": "Flask",
 				"children":
 				[
 					{
-				"caption": "Flask Minimal Application",
-				"command": "flask_minimal"
+						"caption": "Minimal Application",
+						"command": "flask_minimal"
 					},
 					{
-						"caption": "Flask Render Template",
+						"caption": "Render Template",
 						"command": "flask_render_template"
 					}
 				]
