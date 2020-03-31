@@ -12,4 +12,7 @@ def hello_world():
 	return 'Hello, World!'
 """
 		for region in self.view.sel():
-			self.view.insert(edit, region.begin(), text)
+			if not region.empty():
+				self.view.replace(edit, region, text)
+			else:
+				self.view.insert(edit, region.begin(), text)
