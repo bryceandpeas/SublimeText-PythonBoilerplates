@@ -24,10 +24,9 @@ class flask_render_template(sublime_plugin.TextCommand):
 		text  = """
 from flask import render_template
 
-@app.route('/hello/')
-@app.route('/hello/<name>')
-def hello(name=None):
-    return render_template('hello.html', name=name)
+@app.route('/')
+def hello_world():
+	return render_template('hello_world.html')
 """
 		for region in self.view.sel():
 			if not region.empty():

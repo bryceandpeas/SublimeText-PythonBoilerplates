@@ -1,24 +1,39 @@
 [
 	{
 		"caption": "-",
-		"id": "context-convert-end"
+		"id": "separator"
 	},
 	{
 		"caption": "Python Boilerplates",
-		"children": [
+		"id": "top_level_menu",
+		"children":
+		[
 			{
-				"caption": "Flask Minimal Application",
-				"command": "flask_minimal"
+				"command": "Placeholder1",
+				"caption": "placeholder1"
 			},
 			{
-				"caption": "Flask Render Template",
-				"command": "flask_render_template"
-			}
-		],
-		"id": "context-convert"
+				"command": "Placeholder2",
+				"caption": "placeholder2"
+			},
+			{
+				"caption": "Flask",
+				"children":
+				[
+					{
+				"caption": "Flask Minimal Application",
+				"command": "flask_minimal"
+					},
+					{
+						"caption": "Flask Render Template",
+						"command": "flask_render_template"
+					}
+				]
+			},            
+		]
 	},
 	{
 		"caption": "-",
-		"id": "context-convert-end"
+		"id": "separator"
 	}
 ]
