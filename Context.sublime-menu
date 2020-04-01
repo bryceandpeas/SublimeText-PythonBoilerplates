@@ -8,13 +8,21 @@
 		"id": "top_level_menu",
 		"children":
 		[
+			{
+				"caption": ".gitignore",
+				"command": "gitignore"
+			},
+			{	
+				"caption": "Basic Script",
+				"command": "basic_script"
+			},
 			{	
 				"caption": "Hello, World!",
 				"command": "hello_world"
 			},
 			{
-				"caption": ".gitignore",
-				"command": "gitignore"
+				"caption": "-",
+				"id": "separator"
 			},
 			{
 				"caption": "Flask",

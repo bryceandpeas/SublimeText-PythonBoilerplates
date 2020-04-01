@@ -1,16 +1,18 @@
 ## Boilerplates to implement
 
-- [ ] Hello, World!
-- [ ] .gitignore
+- [x] General
+	- [x] .gitignore
+	- [x] Basic Script
+	- [x] Hello, World!
 
 - [ ] Arguments
 	- [ ] Argparse
 
 - [ ] Executables
 
-- [ ] Flask
-	- [ ] Minimal Application
-	- [ ] Render Template
+- [x] Flask
+	- [x] Minimal Application
+	- [x] Render Template
 
 - [ ] Logging
 

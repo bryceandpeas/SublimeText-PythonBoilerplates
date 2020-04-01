@@ -1,12 +1,16 @@
 [	
 	{
+		"caption": "Python Boilerplates: .gitignore",
+		"command": "gitignore"
+	},
+	{
+		"caption": "Python Boilerplates: Basic Script",
+		"command": "basic_script"
+	},
+	{
 		"caption": "Python Boilerplates: Hello, World!",
 		"command": "hello_world"
 	},
-	{
-		"caption": "Python Boilerplates: .gitignore",
-		"command": "gitignore"
-	}
 	{
 		"caption": "Python Boilerplates: Flask Minimal Application",
 		"command": "flask_minimal"
