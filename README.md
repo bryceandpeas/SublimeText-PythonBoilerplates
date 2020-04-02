@@ -1,24 +1,39 @@
 ## Boilerplates to implement
 
-- [x] General
-	- [x] .gitignore
-	- [x] Basic Script
-	- [x] Hello, World!
+- [ ] Algorithms
 
 - [ ] Arguments
 	- [ ] Argparse
 
-- [ ] Executables
+- [ ] Bottle
+
+- [ ] Django
 
 - [x] Flask
 	- [x] Minimal Application
 	- [x] Render Template
 
+- [ ] Full Stack
+
+- [ ] Kivy
+
+- [ ] General
+	- [x] .gitignore
+	- [x] Basic Script
+	- [x] Hello, World!
+	- [] PyPi Package
+
 - [ ] Logging
 
-- [ ] Tests
+- [ ] PyQt5
+
 	- [ ] unittest
 	- [ ] pytest
 	- [ ] tox
 
+- [ ] Tests
+
+- [ ] tkinter
+
+- [ ] Tornado
 
