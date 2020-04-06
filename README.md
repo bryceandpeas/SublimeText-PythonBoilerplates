@@ -1,6 +1,6 @@
 # PythonBoilerplates -  Sublimetext Plugin
 
-## PythonBoilerplates is a Sublime Text plugin, which adds a right-click context menu allowing you to quickly inert code for various python libraries.
+### PythonBoilerplates is a Sublime Text plugin, which adds a right-click context menu allowing you to quickly inert code for various python libraries.
 
 ### Installation
 
@@ -10,7 +10,7 @@ Clone this repository into your Sublime Text "Packages" directory:
 
 ```git clone https://github.com/bryceandpeas/SublimeText-PythonBoilerplates.git```
 
-Sublime Text's defualt [ackages directories are as follows:
+Sublime Text's default packages directories are as follows:
 
  - Linux: ~/.config/sublime-text-2/Packages/
  - OS X: ~/Library/Application Support/Sublime Text 2/Packages/
@@ -46,7 +46,7 @@ Sublime Text's defualt [ackages directories are as follows:
 	- [x] .gitignore
 	- [x] Basic Script
 	- [x] Hello, World!
-	- [] PyPi Package
+	- [ ] PyPi Package
 
 - [ ] Logging
 
