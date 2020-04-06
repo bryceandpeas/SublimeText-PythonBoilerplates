@@ -4,45 +4,49 @@ import sublime
 import sublime_plugin
 
 root = os.path.dirname(os.path.abspath(__file__)) + '/boilerplates/'
-general_directory = 'general/'
 
+algorithm_directory = 'algorithms/'
+bottle_directory = 'bottle/'
+django_directory = 'django/'
 flask_directory = 'flask/'
-
+full_stack_directory = 'full_stack/'
+kivy_directory = 'kivy/'
+general_directory = 'general/'
+logging_directoy = 'logging/'
+pyqt5_directory = 'pyqt5/'
+tests_directory = 'tests/'
+tkinter_directory = 'tkinter/'
+tornado_directory = 'tornado/'
 
 class BaseFunction(sublime_plugin.TextCommand):
-	boilerplate_id = ''
-	directory = ''
-	extension = ''
 
-	@staticmethod
-	def fetch(self, boilerplate_id, directory, extension):
-		return open(root + self.directory + self.boilerplate_id + self.extension).read()
+	def fetch(self, bp_id, directory, ext):
+		return open(root + self.directory + self.bp_id + self.ext).read()
 
-	@staticmethod
 	def run(self, edit):
-		code = BaseFunction.fetch(self, self.boilerplate_id, self.directory, self.extension)
+		code = BaseFunction.fetch(self, self.bp_id, self.directory, self.ext)
 		for region in self.view.sel():
 			if not region.empty():
 				self.view.replace(edit, region, code)
 			else:
 				self.view.insert(edit, region.begin(), code)
 
-class BasicScript(BaseFunction):
-	"""Generate code for a basic executable python script"""
+class Gitignore(BaseFunction):
+	"""Generate a python focused .gitignore file"""
 
-	boilerplate_id = 'basic_script'
+	bp_id = 'gitignore'
 	directory = general_directory
-	extension = '.py'
+	ext = ''
 
 	def run(self, edit):
 		BaseFunction.run(self, edit)
 
-class Gitignore(BaseFunction):
-	"""Generate a python focused .gitignore file"""
+class BasicScript(BaseFunction):
+	"""Generate code for a basic executable python script"""
 
-	boilerplate_id = 'gitignore'
+	bp_id = 'basic_script'
 	directory = general_directory
-	extension = ''
+	ext = '.py'
 
 	def run(self, edit):
 		BaseFunction.run(self, edit)
@@ -50,9 +54,49 @@ class Gitignore(BaseFunction):
 class HelloWorld(BaseFunction):
 	"""Generate code to print 'Hello, World!' in python"""
 
-	boilerplate_id = 'hello_world'
+	bp_id = 'hello_world'
 	directory = general_directory
-	extension = '.py'
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class PyPi(BaseFunction):
+	"""Generate code for a basic executable python script"""
+
+	bp_id = 'basic_script'
+	directory = general_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class BottleMinimal(BaseFunction):
+	"""Generate code for a minimal Bottle application"""
+	
+	bp_id = 'bottle_minimal'
+	directory = bottle_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class BottleTemplate(BaseFunction):
+	"""Generate code for a Bottle application that uses template()"""
+	
+	bp_id = 'bottle_template'
+	directory = bottle_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class BottleTemplateView(BaseFunction):
+	"""Generate code for a Bottle application that uses @view with dict()"""
+	
+	bp_id = 'bottle_template_view'
+	directory = bottle_directory
+	ext = '.py'
 
 	def run(self, edit):
 		BaseFunction.run(self, edit)
@@ -60,9 +104,9 @@ class HelloWorld(BaseFunction):
 class FlaskMinimal(BaseFunction):
 	"""Generate code for a minimal Flask application"""
 	
-	boilerplate_id = 'flask_minimal'
+	bp_id = 'flask_minimal'
 	directory = flask_directory
-	extension = '.py'
+	ext = '.py'
 
 	def run(self, edit):
 		BaseFunction.run(self, edit)
@@ -70,9 +114,19 @@ class FlaskMinimal(BaseFunction):
 class FlaskRenderTemplate(BaseFunction):
 	"""Generate code for a Flask application that uses render_template()"""
 	
-	boilerplate_id = 'flask_render_template'
+	bp_id = 'flask_render_template'
 	directory = flask_directory
-	extension = '.py'
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TornadoMinimal(BaseFunction):
+	"""Generate code for a minimal Tornado application"""
+	
+	bp_id = 'tornado_minimal'
+	directory = tornado_directory
+	ext = '.py'
 
 	def run(self, edit):
 		BaseFunction.run(self, edit)

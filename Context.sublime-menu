@@ -25,6 +25,28 @@
 				"id": "separator"
 			},
 			{
+				"caption": "-",
+				"id": "separator"
+			},
+			{
+				"caption": "Bottle",
+				"children":
+				[
+					{
+						"caption": "Minimal Application",
+						"command": "bottle_minimal"
+					},
+					{
+						"caption": "Template",
+						"command": "bottle_template"
+					},
+					{
+						"caption": "Template @view",
+						"command": "bottle_template_view"
+					}
+				]
+			},
+			{
 				"caption": "Flask",
 				"children":
 				[
@@ -37,7 +59,18 @@
 						"command": "flask_render_template"
 					}
 				]
-			},            
+			},
+			{
+				"caption": "Tornado",
+				"children":
+				[
+					{
+						"caption": "Minimal Application",
+						"command": "tornado_minimal"
+					},
+				]
+			},
+			            
 		]
 	},
 	{
