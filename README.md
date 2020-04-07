@@ -1,6 +1,6 @@
 # PythonBoilerplates -  Sublimetext Plugin
 
-### PythonBoilerplates is a Sublime Text plugin, which adds a right-click context menu allowing you to quickly inert code for various python libraries.
+### PythonBoilerplates is a Sublime Text plugin, which adds a right-click context menu allowing you to quickly insert code for various python libraries.
 
 ### Installation
 
