@@ -4,7 +4,15 @@
 
 ### Installation
 
-Manual installation:
+#### Package Control:
+
+	1. Install Package Manager
+	2. OSX: Cmd+Shift+P
+ 	   Windows: Ctrl+Shift+P 
+ 	3. Search and select 'Package Control: Install Package'
+	4. Search and select 'PythonBoilerplates'
+
+####Manual installation:
 
 Clone this repository into your Sublime Text "Packages" directory:
 
@@ -12,9 +20,9 @@ Clone this repository into your Sublime Text "Packages" directory:
 
 Sublime Text's default packages directories are as follows:
 
- - Linux: ~/.config/sublime-text-2/Packages/
- - OS X: ~/Library/Application Support/Sublime Text 2/Packages/
- - Windows: %APPDATA%/Sublime Text 2/Packages/
+ - Linux: ~/.config/sublime-text-3/Packages/
+ - OSX: ~/Library/Application Support/Sublime Text 3/Packages/
+ - Windows: %APPDATA%/Sublime Text 3/Packages/
 
 ### Usage
 
