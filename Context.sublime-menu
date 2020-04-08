@@ -24,6 +24,10 @@
 				"caption": "-",
 				"id": "separator"
 			},
+			{	
+				"caption": "Argparse",
+				"command": "argparse"
+			},
 			{
 				"caption": "-",
 				"id": "separator"

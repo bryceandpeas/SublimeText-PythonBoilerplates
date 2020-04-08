@@ -32,8 +32,8 @@ Sublime Text's default packages directories are as follows:
 
 - [ ] Algorithms
 
-- [ ] Arguments
-	- [ ] Argparse
+- [X] Arguments
+	- [X] Argparse
 
 - [ ] Bottle
 	- [X] Bottle Minimal

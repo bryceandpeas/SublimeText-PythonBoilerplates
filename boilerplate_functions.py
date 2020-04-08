@@ -6,6 +6,7 @@ import sublime_plugin
 root = os.path.dirname(os.path.abspath(__file__)) + '/boilerplates/'
 
 algorithm_directory = 'algorithms/'
+arguments_directory = 'arguments/'
 bottle_directory = 'bottle/'
 django_directory = 'django/'
 flask_directory = 'flask/'
@@ -56,6 +57,16 @@ class HelloWorld(BaseFunction):
 
 	bp_id = 'hello_world'
 	directory = general_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class Argparse(BaseFunction):
+	"""Generate code for a python script that uses the argparse library"""
+
+	bp_id = 'argparse'
+	directory = arguments_directory
 	ext = '.py'
 
 	def run(self, edit):
