@@ -1,8 +1,8 @@
-# PythonBoilerplates -  Sublimetext Plugin
+# Python Boilerplates -  Sublimetext Plugin
 
-### PythonBoilerplates is a Sublime Text plugin, which adds a right-click context menu allowing you to quickly insert code for various python libraries.
+### Python Boilerplates is a Sublime Text plugin, which adds a right-click context menu allowing you to quickly insert code for various python libraries.
 
-### Installation
+## Installation
 
 #### Package Control:
 
@@ -10,9 +10,9 @@
 	2. OSX: Cmd+Shift+P
  	   Windows: Ctrl+Shift+P 
  	3. Search and select 'Package Control: Install Package'
-	4. Search and select 'PythonBoilerplates'
+	4. Search and select 'Python Boilerplates'
 
-####Manual installation:
+#### Manual installation:
 
 Clone this repository into your Sublime Text "Packages" directory:
 
@@ -24,11 +24,11 @@ Sublime Text's default packages directories are as follows:
  - OSX: ~/Library/Application Support/Sublime Text 3/Packages/
  - Windows: %APPDATA%/Sublime Text 3/Packages/
 
-### Usage
+## Usage
 
  - Right-click in the editor window, mouse-over the "Python Boilerplates" option and click your chosen option to insert the text.
 
-### TODO
+## TODO
 
 - [ ] Algorithms
 
