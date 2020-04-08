@@ -32,13 +32,13 @@ Sublime Text's default packages directories are as follows:
 
 - [ ] Algorithms
 
-- [X] Arguments
-	- [X] Argparse
+- [x] Arguments
+	- [x] Argparse
 
 - [ ] Bottle
-	- [X] Bottle Minimal
-	- [X] Bottle Template
-	- [X] Bottle Template @View
+	- [x] Bottle Minimal
+	- [x] Bottle Template
+	- [x] Bottle Template @View
 
 - [ ] Django
 
@@ -56,7 +56,10 @@ Sublime Text's default packages directories are as follows:
 	- [x] Hello, World!
 	- [ ] PyPi Package
 
-- [ ] Logging
+- [x] Logging
+	- [x] Logging
+	- [x] Log To File
+	- [x] Logzero
 
 - [ ] PyQt5
 

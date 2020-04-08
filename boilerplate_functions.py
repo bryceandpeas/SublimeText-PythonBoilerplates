@@ -132,6 +132,36 @@ class FlaskRenderTemplate(BaseFunction):
 	def run(self, edit):
 		BaseFunction.run(self, edit)
 
+class Logging(BaseFunction):
+	"""Generate code for logging with the python built-in"""
+	
+	bp_id = 'logging'
+	directory = logging_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class LogToFile(BaseFunction):
+	"""Generate code for logging to a file with the python built-in"""
+	
+	bp_id = 'log_to_file'
+	directory = logging_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class Logzero(BaseFunction):
+	"""Generate code for logging with logzero"""
+	
+	bp_id = 'logzero'
+	directory = logging_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
 class TornadoMinimal(BaseFunction):
 	"""Generate code for a minimal Tornado application"""
 	
