@@ -68,7 +68,15 @@ Sublime Text's default packages directories are as follows:
 	- [x] pytest
 	- [x] tox
 
-- [ ] tkinter
+- [x] tkinter
+	- [x] Basic Window
+	- [x] Basic Button
+	- [x] Basic Button Click Event
+	- [x] Basic Input
+	- [x] Basic Label
+	- [x] Checkbox
+	- [x] Combobox
+	- [x] Radio Buttons
 
 - [x] Tornado
 	- [x] Minimal Application

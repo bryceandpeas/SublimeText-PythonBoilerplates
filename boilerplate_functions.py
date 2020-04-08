@@ -192,6 +192,86 @@ class Unittest(BaseFunction):
 	def run(self, edit):
 		BaseFunction.run(self, edit)
 
+class TkinterBasicWindow(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_basic_window'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterBasicButton(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_basic_button'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterBasicButtonClick(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_basic_button_click'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterBasicInput(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_basic_input'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterBasicLabel(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_basic_label'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterCheckbox(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_checkbox'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterCombobox(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_combobox'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterRadioButtons(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_radio_buttons'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
 class TornadoMinimal(BaseFunction):
 	"""Generate code for a minimal Tornado application"""
 	

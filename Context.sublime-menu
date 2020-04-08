@@ -101,6 +101,45 @@
 				]
 			},
 			{
+				"caption": "tkinter",
+				"children":
+				[
+					{
+						"caption": "Basic Window",
+						"command": "tkinter_basic_window"
+					},
+					{
+						"caption": "Basic Button",
+						"command": "tkinter_basic_button"
+					},
+					{
+						"caption": "Basic Button w/Click Event",
+						"command": "tkinter_basic_button_click"
+					},
+					{
+						"caption": "Basic Input",
+						"command": "tkinter_basic_input"
+					},
+					{
+						"caption": "Basic Label",
+						"command": "tkinter_basic_label"
+					},
+					{
+						"caption": "Checkbox",
+						"command": "tkinter_checkbox"
+					},
+					{
+						"caption": "Combobox",
+						"command": "tkinter_combobox"
+					},
+					{
+						"caption": "Radio Buttons",
+						"command": "tkinter_radio_buttons"
+					},
+
+				]
+			},
+			{
 				"caption": "Tornado",
 				"children":
 				[
