@@ -76,7 +76,15 @@ Sublime Text's default packages directories are as follows:
 	- [x] Basic Label
 	- [x] Checkbox
 	- [x] Combobox
+	- [x] File Dialog
+	- [x] Menubar
+	- [x] Progressbar
 	- [x] Radio Buttons
+	- [x] Radio Buttons Get Value
+	- [x] Scrolled Text
+	- [x] Spinbox
+	- [x] Tab Control
+	- [x] Warnings and Errors
 
 - [x] Tornado
 	- [x] Minimal Application

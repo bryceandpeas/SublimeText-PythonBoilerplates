@@ -262,10 +262,100 @@ class TkinterCombobox(BaseFunction):
 	def run(self, edit):
 		BaseFunction.run(self, edit)
 
+class TkinterFileDialog(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_file_dialog'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterMessagebox(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_messagebox'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterMenubar(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_menubar'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterProgressbar(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_progressbar'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
 class TkinterRadioButtons(BaseFunction):
 	"""Generate code for testing with unittest"""
 	
 	bp_id = 'tkinter_radio_buttons'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterRadioButtonsGet(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_radio_buttons_get'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterScrolledText(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_scrolledtext'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterSpinbox(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_spinbox'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterTabControl(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_tab_control'
+	directory = tkinter_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class TkinterWarningsErrors(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'tkinter_warnings_errors'
 	directory = tkinter_directory
 	ext = '.py'
 

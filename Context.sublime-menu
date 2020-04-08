@@ -133,10 +133,46 @@
 						"command": "tkinter_combobox"
 					},
 					{
+						"caption": "File Dialog",
+						"command": "tkinter_file_dialog"
+					},
+					{
+						"caption": "Messagebox",
+						"command": "tkinter_messagebox"
+					},
+					{
+						"caption": "Menubar",
+						"command": "tkinter_menubar"
+					},
+					{
+						"caption": "Progressbar",
+						"command": "tkinter_progressbar"
+					},
+					{
 						"caption": "Radio Buttons",
 						"command": "tkinter_radio_buttons"
 					},
+					{
 
+						"caption": "Radio Buttons w/Get Value",
+						"command": "tkinter_radio_buttons_get"
+					},
+					{
+						"caption": "Scrolledtext",
+						"command": "tkinter_scrolledtext"
+					},
+					{
+						"caption": "Spinbox",
+						"command": "tkinter_spinbox"
+					},
+					{
+						"caption": "Tab Control",
+						"command": "tkinter_tab_control"
+					},
+					{
+						"caption": "Warnings and Errors",
+						"command": "tkinter_warnings_errors"
+					},
 				]
 			},
 			{
