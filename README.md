@@ -63,13 +63,13 @@ Sublime Text's default packages directories are as follows:
 
 - [ ] PyQt5
 
-	- [ ] unittest
-	- [ ] pytest
-	- [ ] tox
-
-- [ ] Tests
+- [x] Tests
+	- [x] unittest
+	- [x] pytest
+	- [x] tox
 
 - [ ] tkinter
 
-- [ ] Tornado
+- [x] Tornado
+	- [x] Minimal Application
 

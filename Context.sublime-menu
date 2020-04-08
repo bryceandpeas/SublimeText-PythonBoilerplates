@@ -83,6 +83,24 @@
 				]
 			},
 			{
+				"caption": "Tests",
+				"children":
+				[
+					{
+						"caption": "Pytest",
+						"command": "pytest"
+					},
+					{
+						"caption": "Tox",
+						"command": "tox"
+					},
+					{
+						"caption": "Unittest",
+						"command": "unittest"
+					}
+				]
+			},
+			{
 				"caption": "Tornado",
 				"children":
 				[

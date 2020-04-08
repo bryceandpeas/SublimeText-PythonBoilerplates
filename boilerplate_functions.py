@@ -162,6 +162,36 @@ class Logzero(BaseFunction):
 	def run(self, edit):
 		BaseFunction.run(self, edit)
 
+class Pytest(BaseFunction):
+	"""Generate code for testing with pytest"""
+	
+	bp_id = 'pytest'
+	directory = tests_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class Tox(BaseFunction):
+	"""Generate code for testing with tox"""
+	
+	bp_id = 'tox'
+	directory = tests_directory
+	ext = '.ini'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
+class Unittest(BaseFunction):
+	"""Generate code for testing with unittest"""
+	
+	bp_id = 'unittest'
+	directory = tests_directory
+	ext = '.py'
+
+	def run(self, edit):
+		BaseFunction.run(self, edit)
+
 class TornadoMinimal(BaseFunction):
 	"""Generate code for a minimal Tornado application"""
 	
