@@ -14,11 +14,11 @@
 
 #### Manual installation:
 
-	Clone this repository into your Sublime Text "Packages" directory:
+Clone this repository into your Sublime Text "Packages" directory:
 
-	```git clone https://github.com/bryceandpeas/SublimeText-PythonBoilerplates.git```
+```git clone https://github.com/bryceandpeas/SublimeText-PythonBoilerplates.git```
 
-	Sublime Text's default packages directories are as follows:
+Sublime Text's default packages directories are as follows:
 
 	 - Linux: ~/.config/sublime-text-3/Packages/
 	 - OSX: ~/Library/Application Support/Sublime Text 3/Packages/
