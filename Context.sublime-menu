@@ -65,6 +65,24 @@
 				]
 			},
 			{
+				"caption": "Logging",
+				"children":
+				[
+					{
+						"caption": "Logging",
+						"command": "logging"
+					},
+					{
+						"caption": "Log To File",
+						"command": "log_to_file"
+					},
+					{
+						"caption": "Logzero",
+						"command": "logzero"
+					}
+				]
+			},
+			{
 				"caption": "Tornado",
 				"children":
 				[
