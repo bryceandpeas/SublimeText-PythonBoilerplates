@@ -322,7 +322,7 @@ class TkinterRadioButtonsGet(BaseFunction):
 	def run(self, edit):
 		BaseFunction.run(self, edit)
 
-class TkinterScrolledText(BaseFunction):
+class TkinterScrolledtext(BaseFunction):
 	"""Generate code for scrolledtext with tkinter"""
 	
 	bp_id = 'tkinter_scrolledtext'
