@@ -193,7 +193,7 @@ class Unittest(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterBasicWindow(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a basic window with tkinter"""
 	
 	bp_id = 'tkinter_basic_window'
 	directory = tkinter_directory
@@ -203,7 +203,7 @@ class TkinterBasicWindow(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterBasicButton(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a basic button with tkinter"""
 	
 	bp_id = 'tkinter_basic_button'
 	directory = tkinter_directory
@@ -213,7 +213,7 @@ class TkinterBasicButton(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterBasicButtonClick(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a basic button and click event with tkinter"""
 	
 	bp_id = 'tkinter_basic_button_click'
 	directory = tkinter_directory
@@ -223,7 +223,7 @@ class TkinterBasicButtonClick(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterBasicInput(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a basic user input with tkinter"""
 	
 	bp_id = 'tkinter_basic_input'
 	directory = tkinter_directory
@@ -233,7 +233,7 @@ class TkinterBasicInput(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterBasicLabel(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a basic label with tkinter"""
 	
 	bp_id = 'tkinter_basic_label'
 	directory = tkinter_directory
@@ -243,7 +243,7 @@ class TkinterBasicLabel(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterCheckbox(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a checkbox with tkinter"""
 	
 	bp_id = 'tkinter_checkbox'
 	directory = tkinter_directory
@@ -253,7 +253,7 @@ class TkinterCheckbox(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterCombobox(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a combobox with tkinter"""
 	
 	bp_id = 'tkinter_combobox'
 	directory = tkinter_directory
@@ -263,7 +263,7 @@ class TkinterCombobox(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterFileDialog(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for opening a file dialog with tkinter"""
 	
 	bp_id = 'tkinter_file_dialog'
 	directory = tkinter_directory
@@ -273,7 +273,7 @@ class TkinterFileDialog(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterMessagebox(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a messagebox with tkinter"""
 	
 	bp_id = 'tkinter_messagebox'
 	directory = tkinter_directory
@@ -283,7 +283,7 @@ class TkinterMessagebox(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterMenubar(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a menubar with tkinter"""
 	
 	bp_id = 'tkinter_menubar'
 	directory = tkinter_directory
@@ -293,7 +293,7 @@ class TkinterMenubar(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterProgressbar(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a progressbar with tkinter"""
 	
 	bp_id = 'tkinter_progressbar'
 	directory = tkinter_directory
@@ -303,7 +303,7 @@ class TkinterProgressbar(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterRadioButtons(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for radio buttons with tkinter"""
 	
 	bp_id = 'tkinter_radio_buttons'
 	directory = tkinter_directory
@@ -313,7 +313,7 @@ class TkinterRadioButtons(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterRadioButtonsGet(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for radio buttons and getting their values with tkinter"""
 	
 	bp_id = 'tkinter_radio_buttons_get'
 	directory = tkinter_directory
@@ -323,7 +323,7 @@ class TkinterRadioButtonsGet(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterScrolledText(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for scrolledtext with tkinter"""
 	
 	bp_id = 'tkinter_scrolledtext'
 	directory = tkinter_directory
@@ -333,7 +333,7 @@ class TkinterScrolledText(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterSpinbox(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for a spinbox with tkinter"""
 	
 	bp_id = 'tkinter_spinbox'
 	directory = tkinter_directory
@@ -343,7 +343,7 @@ class TkinterSpinbox(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterTabControl(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for tab control with tkinter"""
 	
 	bp_id = 'tkinter_tab_control'
 	directory = tkinter_directory
@@ -353,7 +353,7 @@ class TkinterTabControl(BaseFunction):
 		BaseFunction.run(self, edit)
 
 class TkinterWarningsErrors(BaseFunction):
-	"""Generate code for testing with unittest"""
+	"""Generate code for warning and error windows tkinter"""
 	
 	bp_id = 'tkinter_warnings_errors'
 	directory = tkinter_directory
